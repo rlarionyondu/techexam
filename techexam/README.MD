@@ -4,7 +4,7 @@ This is a simple API project that will provide endpoints to create, update, list
 
 ## Installation
 
-1. Git clone this repository: `https://github.com/rlarionyondu/techexam.git'
+1. Git clone this repository: `https://github.com/rlarionyondu/techexam.git`
 2. Create a virtual environment: `python -m venv venv`
 3. Activate the virtual environment: `source venv/bin/activate`
 4. Install dependencies: `pip install -r requirements.txt`
