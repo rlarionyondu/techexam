@@ -17,15 +17,15 @@ This is a simple API project that will provide endpoints to create, update, list
 
 ### Generate Auth Token
 POST http://127.0.0.1:8000/api/v1/token/auth/
-Body:
+`Body:
     username: onie
-    password: pass
+    password: pass`
 
 ### Add Region
 POST http://127.0.0.1:8000/api/v1/region/
-Headers:
+`Headers:
     Key: Authorization
-    Value: generated token
+    Value: generated token`
     Body (raw, JSON):
         {
             "name": "XII"
@@ -33,15 +33,15 @@ Headers:
 
 ### List Regions
 GET http://127.0.0.1:8000/api/v1/region?page=1&per_page=10&name=III
-Headers:
+`Headers:
     Key: Authorization
-    Value: generated token
+    Value: generated token`
 
 ### Update a Region
 PATCH http://127.0.0.1:8000/api/v1/region/4/
-Headers:
+`Headers:
     Key: Authorization
-    Value: generated token
+    Value: generated token`
 Body (raw, JSON):
     {
     "name": "IV - update"
@@ -49,9 +49,9 @@ Body (raw, JSON):
 
 ### Add Province
 POST http://127.0.0.1:8000/api/v1/province/
-Headers:
+`Headers:
     Key: Authorization
-    Value: generated token
+    Value: generated token`
 Body (raw, JSON):
     {
     "name": "Cotabato",
@@ -60,6 +60,6 @@ Body (raw, JSON):
 
 ### List Provinces
 GET http://127.0.0.1:8000/api/v1/province/?page=1&per_page=10&name=Aurora
-Headers:
+`Headers:
     Key: Authorization
-    Value: generated token
+    Value: generated token`
