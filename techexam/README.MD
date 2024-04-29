@@ -5,7 +5,7 @@ This is a simple API project that will provide endpoints to create, update, list
 
 Unzip Project file: 
 ```
-django.zip`
+django.zip
 ```
 Go to **techexam** directory
 ```
@@ -29,11 +29,11 @@ cd techexam
 ```
 Run migrations: 
 ```
-python manage.py migrate`
+python manage.py migrate
 ```
 Start the development server: 
 ```
-python manage.py runserver`
+python manage.py runserver
 ```
 ---
 ## Access API using Postman
