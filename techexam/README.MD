@@ -64,3 +64,13 @@ GET http://127.0.0.1:8000/api/v1/province/?page=1&per_page=10&name=Aurora
 `Headers:
     Key: Authorization
     Value: generated token`
+
+### Update a Province
+PATCH http://127.0.0.1:8000/api/v1/province/4/
+`Headers:
+    Key: Authorization
+    Value: generated token`
+Body (raw, JSON):
+    {
+    "name": "Aurora"
+    }
