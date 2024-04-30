@@ -93,7 +93,8 @@ POST http://127.0.0.1:8000/api/v1/province/
 ```raw: JSON```
 ```
 {
-"name": "Abra"
+"name": "Aurora",
+"region": 3
 }
 ```
 ---
@@ -103,4 +104,18 @@ GET http://127.0.0.1:8000/api/v1/province?page=1&per_page=10&name=Aurora
 |Key                     |Value
 |-------------------|-------------------|
 |Authorization      |(generated token)
-
+---
+### Update a Province
+POST http://127.0.0.1:8000/api/v1/province/4/
+##### Headers
+|Key                     |Value
+|-------------------|-------------------|
+|Authorization      |(generated token)
+##### Body
+```raw: JSON```
+```
+{
+"name": "Aurora",
+"region": 3
+}
+```
